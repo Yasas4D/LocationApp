@@ -54,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        heroTag: "new",
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
